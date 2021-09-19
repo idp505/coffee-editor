@@ -6,6 +6,8 @@ Please visit the [emf.cloud home page](https://www.eclipse.org/emfcloud/#coffeee
 If you have questions, contact us on our [discussions page](https://github.com/eclipse-emfcloud/emfcloud/discussions)
 and have a look at our [communication and support options](https://www.eclipse.org/emfcloud/contact/).
 
+![Alt text](workflow.png?raw=true)
+
 ## Project Structure
 
 The coffee-editor consists of a frontend and a backend.
