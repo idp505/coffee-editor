@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="ASCII"?>
+<wfnotation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wfnotation="http://www.eclipsesource.com/glsp/examples/workflow/notation">
+  <semanticElement uri="//@workflows.0"/>
+  <elements xsi:type="wfnotation:Shape" graphicId="30f9ce78-0882-45da-b96e-abf594325201">
+    <semanticElement uri="//@workflows.0/@nodes.1"/>
+    <position x="270.0" y="100.0"/>
+    <size width="140.640625" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="5a7640d2-3cf5-4fe2-b710-8552e3e2b0f6">
+    <semanticElement uri="//@workflows.0/@nodes.5"/>
+    <position x="180.0" y="410.0"/>
+    <size width="95.625" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="74099107-7532-470a-ae0b-e6b844bfe544">
+    <semanticElement uri="//@workflows.0/@nodes.6"/>
+    <position x="620.0" y="270.0"/>
+    <size width="66.6875" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="8c8ef974-38a4-420f-96d3-6de8716393fa">
+    <semanticElement uri="//@workflows.0/@nodes.7"/>
+    <position x="500.0" y="390.0"/>
+    <size width="93.375" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="9b1c67b4-2dc8-46a7-ae92-d07579d14e89">
+    <semanticElement uri="//@workflows.0/@nodes.8"/>
+    <position x="730.0" y="390.0"/>
+    <size width="82.25" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="56c52621-825e-40d0-8acb-d756531ce542">
+    <semanticElement uri="//@workflows.0/@nodes.9"/>
+    <position x="650.0" y="510.0"/>
+    <size width="32.0" height="32.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="b2431b79-d824-4abb-8903-cc76d54331d2">
+    <semanticElement uri="//@workflows.0/@flows.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="1cb1934a-bc9e-4eb1-b648-ba4e83df846f">
+    <semanticElement uri="//@workflows.0/@flows.4"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="f332fd98-8ae0-475d-8ad9-1ade12cf7491">
+    <semanticElement uri="//@workflows.0/@flows.5"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="ea11ef49-cf58-4027-abc3-54280164513f">
+    <semanticElement uri="//@workflows.0/@flows.6"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="9291376d-3a36-4778-8189-a4d5bea09314">
+    <semanticElement uri="//@workflows.0/@flows.7"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="7b5084a1-4672-4636-8da7-0d4eeff36eba">
+    <semanticElement uri="//@workflows.0/@flows.8"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="12d8fa40-7170-4db6-8bfe-8ff0e8a0aee9">
+    <semanticElement uri="//@workflows.0/@flows.9"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="2a98bf05-fb10-48f2-b1a5-73788fb7d0c8">
+    <semanticElement uri="//@workflows.0/@nodes.10"/>
+    <position x="810.0" y="500.0"/>
+    <size width="95.625" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="49305e67-eb3a-42a7-b518-923f051b8368">
+    <semanticElement uri="//@workflows.0/@nodes.17"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="2f739c01-e09e-49ba-bcf0-3a40f7435195">
+    <semanticElement uri="//@workflows.0/@nodes.18"/>
+    <position x="1070.0" y="380.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="063a503b-5eaa-41c4-bcf1-4ede9e4e14b1">
+    <semanticElement uri="//@workflows.0/@nodes.19"/>
+    <position x="1210.0" y="290.0"/>
+    <size width="82.25" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="d6b25b98-61fb-487e-9b5c-150d82d40ae4">
+    <semanticElement uri="//@workflows.0/@nodes.16"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="8862fbfd-9f83-4314-a5cb-d12eab7f8bfa">
+    <semanticElement uri="//@workflows.0/@nodes.0"/>
+    <position x="290.0"/>
+    <size width="101.90625" height="52.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="8e6acdd9-a2cb-42cd-acda-7c319783921e">
+    <semanticElement uri="//@workflows.0/@nodes.2"/>
+    <position x="320.0" y="190.0"/>
+    <size width="32.0" height="32.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="78723a25-71b6-4f21-a611-27f12021f772">
+    <semanticElement uri="//@workflows.0/@flows.1"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="3eb02c7c-910b-4f94-9449-097bc81d6766">
+    <semanticElement uri="//@workflows.0/@nodes.4"/>
+    <position x="410.0" y="270.0"/>
+    <size width="102.359375" height="52.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="d8f55d5b-cec0-4fe6-b9ea-1e7c24a9dc2a">
+    <semanticElement uri="//@workflows.0/@nodes.3"/>
+    <position x="180.0" y="270.0"/>
+    <size width="82.25" height="42.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="15506624-b53d-4dcf-b836-748fa0fb3d6c">
+    <semanticElement uri="//@workflows.0/@flows.2"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="289a8feb-8c63-43a2-96a7-9eff341a14ed">
+    <semanticElement uri="//@workflows.0/@nodes.4"/>
+    <position x="400.0" y="310.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="e038db02-33f6-41b8-b99e-9d8b06220c54">
+    <semanticElement uri="//@workflows.0/@nodes.4"/>
+    <position x="400.0" y="330.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="2dade8b3-e16a-494d-b02e-b9b65b486075">
+    <semanticElement uri="//@workflows.0/@flows.3"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="57987ea6-8c5d-4076-85ab-a90ed7c0efcf">
+    <semanticElement uri="//@workflows.0/@nodes.5"/>
+    <position x="200.0" y="460.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="64d7994e-45d1-46ca-9cc5-b5e83dc94122">
+    <semanticElement uri="//@workflows.0/@flows.4"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="26181654-574c-4044-aa6b-bf2b58250fb4">
+    <semanticElement uri="//@workflows.0/@nodes.6"/>
+    <position x="690.0" y="310.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="e0b03b87-a061-4605-a08f-c326de6cc7d9">
+    <semanticElement uri="//@workflows.0/@flows.5"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="719bcc05-f2c5-4de6-bf37-7319656023f4">
+    <semanticElement uri="//@workflows.0/@nodes.7"/>
+    <position x="610.0" y="430.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="59925f23-f878-4204-ae9d-c95ff9d6fc04">
+    <semanticElement uri="//@workflows.0/@flows.6"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="117ac673-7221-4ec2-8c03-ca201730845f">
+    <semanticElement uri="//@workflows.0/@nodes.8"/>
+    <position x="750.0" y="420.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="259be37c-6435-4710-a5de-2df1da2e76d1">
+    <semanticElement uri="//@workflows.0/@flows.7"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="3fa864d2-3d96-4f6f-baa5-9146c4fcf288">
+    <semanticElement uri="//@workflows.0/@nodes.9"/>
+    <position x="680.0" y="520.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="babc41d6-3f98-442e-918f-9f07dd06f6a4">
+    <semanticElement uri="//@workflows.0/@flows.8"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="eb1c13b7-3ac6-4394-959d-c9523f2fe924">
+    <semanticElement uri="//@workflows.0/@flows.9"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="c7746e36-db37-4db3-9fff-4df8b922afd7">
+    <semanticElement uri="//@workflows.0/@nodes.10"/>
+    <position x="430.0" y="560.0"/>
+  </elements>
+  <elements xsi:type="wfnotation:Edge" graphicId="584a0e0b-4b9e-499f-b0f8-92e520f97ebb">
+    <semanticElement uri="//@workflows.0/@flows.10"/>
+  </elements>
+  <elements xsi:type="wfnotation:Shape" graphicId="ed00009e-b2d0-4100-9c92-a02618a95e16">
+    <semanticElement uri="//@workflows.0/@nodes.13"/>
+  </elements>
+</wfnotation:Diagram>

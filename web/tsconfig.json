@@ -1,0 +1,20 @@
+{
+  "extends": "./configs/base.tsconfig",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "coffee-editor-extension/src",
+    "coffee-java-extension/src",
+    "coffee-cpp-extension/src",
+    "coffee-server/src",
+    "coffee-welcome-page/src",
+    "coffee-workflow-analyzer/src",
+    "coffee-workflow-analyzer-editors/src",
+    "coffee-workflow-sprotty/src",
+    "coffee-workflow-glsp-editor/src",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

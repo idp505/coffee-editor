@@ -1,0 +1,73 @@
+{
+  "private": true,
+  "license": "(EPL-2.0 OR MIT)",
+  "name": "browser-app",
+  "version": "0.7.0",
+  "dependencies": {
+    "@theia/callhierarchy": "latest",
+    "@theia/console": "latest",
+    "@theia/core": "latest",
+    "@theia/debug": "latest",
+    "@theia/editor": "latest",
+    "@theia/file-search": "latest",
+    "@theia/filesystem": "latest",
+    "@theia/git": "latest",
+    "@theia/json": "latest",
+    "@theia/keymaps": "latest",
+    "@theia/languages": "latest",
+    "@theia/markers": "latest",
+    "@theia/messages": "latest",
+    "@theia/mini-browser": "latest",
+    "@theia/monaco": "latest",
+    "@theia/navigator": "latest",
+    "@theia/outline-view": "latest",
+    "@theia/output": "latest",
+    "@theia/plugin-dev": "latest",
+    "@theia/plugin-ext": "latest",
+    "@theia/plugin-ext-vscode": "latest",
+    "@theia/plugin-metrics": "latest",
+    "@theia/preferences": "latest",
+    "@theia/process": "latest",
+    "@theia/scm": "latest",
+    "@theia/scm-extra": "latest",
+    "@theia/search-in-workspace": "latest",
+    "@theia/task": "latest",
+    "@theia/terminal": "latest",
+    "@theia/typehierarchy": "latest",
+    "@theia/userstorage": "latest",
+    "@theia/variable-resolver": "latest",
+    "@theia/vsx-registry": "latest",
+    "@theia/workspace": "latest",
+    "coffee-workflow-glsp-editor": "0.7.0",
+    "coffee-editor-extension": "0.7.0",
+    "coffee-workflow-analyzer": "0.7.0",
+    "coffee-workflow-analyzer-editors": "0.7.0",
+    "coffee-java-extension": "0.7.0",
+    "coffee-cpp-extension": "0.7.0",
+    "coffee-server": "0.7.0",
+    "coffee-welcome-page": "0.7.0"
+  },
+  "devDependencies": {
+    "@theia/cli": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run download:plugins && theia build --mode development",
+    "start": "theia start --WORKFLOW_NOTATION_LSP=5008 --hostname=0.0.0.0 --port=3000 --root-dir=../../backend/examples/SuperBrewer3000 --plugins=local-dir:./plugins",
+    "debug": "theia start --WORKFLOW_NOTATION_LSP=5008 --WF_LSP=5017 --WF_ANALYZER=5083 --port=3000 --root-dir=../../backend/examples/SuperBrewer3000 --loglevel=debug --plugins=local-dir:./plugins",
+    "watch": "theia build --watch --mode development",
+    "download:plugins": "theia download:plugins"
+  },
+  "theia": {
+    "target": "browser"
+  },
+  "theiaPluginsDir": "plugins",
+  "theiaPlugins": {
+    "java-debug": "https://github.com/microsoft/vscode-java-debug/releases/download/0.22.0/vscode-java-debug-0.22.0.vsix",
+    "java-lsp": "https://download.jboss.org/jbosstools/static/jdt.ls/stable/java-0.50.0-1825.vsix",
+    "vscode-builtin-java": "https://github.com/theia-ide/vscode-builtin-extensions/releases/download/v1.39.1-prel/java-1.39.1-prel.vsix",
+    "cdt-gdb-vscode": "https://open-vsx.org/api/eclipse-cdt/cdt-gdb-vscode/0.0.91/file/eclipse-cdt.cdt-gdb-vscode-0.0.91.vsix",
+    "vscode-builtin-cpp": "https://open-vsx.org/api/vscode/cpp/1.51.1/file/vscode.cpp-1.51.1.vsix",
+    "vscode-clangd": "https://open-vsx.org/api/llvm-vs-code-extensions/vscode-clangd/0.1.6/file/llvm-vs-code-extensions.vscode-clangd-0.1.6.vsix",
+    "vscode-cmake": "https://open-vsx.org/api/ms-vscode/cmake-tools/1.7.0/file/ms-vscode.cmake-tools-1.7.0.vsix"
+  }
+}

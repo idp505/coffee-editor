@@ -1,0 +1,48 @@
+{
+  "name": "coffee-editor-extension",
+  "license": "(EPL-2.0 OR MIT)",
+  "keywords": [
+    "theia-extension"
+  ],
+  "version": "0.7.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@eclipse-emfcloud/modelserver-theia": "next",
+    "@theia/core": "latest",
+    "@theia/filesystem": "latest",
+    "@theia/workspace": "latest",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^6.0.0",
+    "recompose": "^0.27.1",
+    "redux": "^3.7.2",
+    "uuid": "^3.3.2",
+    "@eclipse-emfcloud/theia-tree-editor": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest",
+    "@typescript-eslint/eslint-plugin": "^2.16.0",
+    "@typescript-eslint/parser": "^2.16.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-header": "^3.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-react": "^7.20.3"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "lint": "eslint -c ../.eslintrc.js --ext .ts,.tsx ./src",
+    "build": "tsc && yarn run lint",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/coffee-editor-frontend-module"
+    }
+  ]
+}
